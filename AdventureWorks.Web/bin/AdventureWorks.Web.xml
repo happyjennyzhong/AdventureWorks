@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AdventureWorks.Web</name>
+    </assembly>
+    <members>
+        <member name="M:AdventureWorks.Web.Controllers.AccountController.Login(System.String)">
+            GET: /Account/Login
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.DepartmentController.Index">
+            <summary>
+            GET: Departments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.DepartmentController.GetEmployees(System.Int32)">
+            <summary>
+             GET: Departments/Employees/{id}
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.DepartmentsController.Index">
+            <summary>
+            GET: Departments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.DepartmentsController.Employees(System.Int32)">
+            <summary>
+             GET: Departments/Employees/{id}
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.Index(System.Nullable{AdventureWorks.Web.Controllers.ManageController.ManageMessageId})">
+            <summary>
+             GET: /Manage/Index
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.RemoveLogin(System.String,System.String)">
+            <summary>
+            POST: /Manage/RemoveLogin
+            </summary>
+            <param name="loginProvider"></param>
+            <param name="providerKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.AddPhoneNumber">
+            <summary>
+             GET: /Manage/AddPhoneNumber
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.AddPhoneNumber(AdventureWorks.Web.Models.AddPhoneNumberViewModel)">
+            <summary>
+            /POST: /Manage/AddPhoneNumber
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.EnableTwoFactorAuthentication">
+            <summary>
+            POST: /Manage/EnableTwoFactorAuthentication
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.DisableTwoFactorAuthentication">
+            <summary>
+            POST: /Manage/DisableTwoFactorAuthentication
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.VerifyPhoneNumber(System.String)">
+            <summary>
+            /GET: /Manage/VerifyPhoneNumber
+            </summary>
+            <param name="phoneNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.VerifyPhoneNumber(AdventureWorks.Web.Models.VerifyPhoneNumberViewModel)">
+            <summary>
+            POST: /Manage/VerifyPhoneNumber
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.RemovePhoneNumber">
+            <summary>
+            POST: /Manage/RemovePhoneNumber
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.ChangePassword">
+            <summary>
+            GET: /Manage/ChangePassword
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AdventureWorks.Web.Controllers.ManageController.ChangePassword(AdventureWorks.Web.Models.ChangePasswordViewModel)">
+            <summary>
+            POST: /Manage/ChangePassword
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
